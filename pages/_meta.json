@@ -1,0 +1,24 @@
+{
+  "index": "Introduction",
+  "reference": "Sheets Addon Reference",
+  "engineering": "Engineering Templates",
+  "blank": "Blank Template",
+  "about": {
+    "title": "About",
+    "type": "page"
+  },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "mailto:wkaisertexas@gmail.com",
+    "newWindow": true
+  },
+  "tos": {
+    "title": "Terms of Service ↗",
+    "type": "page"
+  },
+  "privacy": {
+    "title": "Privacy Policy ↗",
+    "type": "page"
+  }
+}

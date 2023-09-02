@@ -1,27 +1,23 @@
-# Hello World example
+# Nextra Docs Template 
 
-This example shows the most basic idea behind Next. We have 2 pages: `pages/index.tsx` and `pages/about.tsx`. The former responds to `/` requests and the latter to `/about`. Using `next/link` you can add hyperlinks between them with universal routing capabilities. The `day` directory shows that you can have subdirectories.
+This is a template for creating documentation with [Nextra](https://nextra.site).
 
-## Deploy your own
+[**Live Demo →**](https://nextra-docs-template.vercel.app)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/hello-world)
+[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/hello-world&project-name=hello-world&repository-name=hello-world)
+## Quick Start
 
-## How to use
+Click the button to clone this repository and deploy it on Vercel:
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
 
-```bash
-npx create-next-app --example hello-world hello-world-app
-```
+## Local Development
 
-```bash
-yarn create next-app --example hello-world hello-world-app
-```
+First, run `pnpm i` to install the dependencies.
 
-```bash
-pnpm create next-app --example hello-world hello-world-app
-```
+Then, run `pnpm dev` to start the development server and visit localhost:3000.
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+## License
+
+This project is licensed under the MIT License.

@@ -1,0 +1,28 @@
+# About
+
+My name is William Kaiser, and I am a second-year Computer Science Student at the University of Virginia. I have some medicore javascript skills and got inspired by [UVA's SIS API Published by Prof. Mark Sherriff for CS 3130](https://s23.cs3240.org/sis-api.html). 
+
+## How it works? 
+
+As many a UVA student will know, the Student Information System (SIS) sucks. As you can imagine, SIS's internal API is cut from the same cloth.
+
+For this reason, I had to supplement this with a UVA Developer API I found.
+
+The separation of concerns is:
+- [SIS API](https://s23.cs3240.org/sis-api.html) only gets the number of credit hours
+- [UVA Developer API](https://api.devhub.virginia.edu/v1/courses) fetches a list of courses 
+
+## Google Sheets Connector
+
+Like all good things, it starts with a `fetch` call. However, to be a Google Sheet's extension, a [Google Apps Script](https://www.google.com/script/start/) handles each function call.
+
+As SIS does not allow external requests, a Firestore database caches credit information, something I have to manually update each semester.
+
+## Future Plans?
+
+This was my first attempt at building a tool for the UVA community. However, someone is surely going to have some seemingly obvious idea for future expansion that I simply missed. **Please tell me!** Shoot me an email, submit a feature request on GitHub and more. 
+
+```python
+if you_have_ideas:
+    email_me() || submit_feature_request()
+```
