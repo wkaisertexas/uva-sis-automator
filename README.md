@@ -1,23 +1,26 @@
-# Nextra Docs Template 
+<p align="center">
+    <img src="./public/screenshot.png" alt="Thumbnail">
+</p>
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+---
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+# UVA SIS Automator + Degree Plan Templates
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+Automate both the process of building and getting data for you degree plan at the University of Virginia (UVA). Planning is great, but UVA's [student information system](https://in.virginia.edu/sis) planning features are quite terrible.
 
-## Quick Start
+This project creates:
+- **a Google Sheets Add-On** to pull course information (e.g. title, instructors, units, etc.) from a course pneumonic (e.g. CS 2100, PSYC 1020, etc.)
+- **templates for common degree plans** built with connectors
+> Currently, only B.S. Computer Science, but planning to expand
 
-Click the button to clone this repository and deploy it on Vercel:
+# Check it out!
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+The website is currently live at [uvamisc.com](https://uvamisc.com).
 
-## Local Development
+<p align="center">
+➡️ <strong><a href="https://uvamisc.com" alt="UVA Misc">Click me to go to the website</a></strong>⬅️
+</p>
 
-First, run `pnpm i` to install the dependencies.
+# Contributing
 
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
-
-## License
-
-This project is licensed under the MIT License.
+Building the scraper was a near-pedagogical project of mine to learn Firebase and Cloud Functions. Likewise, I am guaranteed to have made mistakes and simple omissions. Submit a feature request or contact me for any and all suggestions.

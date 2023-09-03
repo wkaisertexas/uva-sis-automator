@@ -1,8 +1,4 @@
-import { Steps } from 'nextra/components'
-
-# UVA Degree Plan Templates + Google Sheets Addon
-
-<svg width="560" height="280" viewBox="0 0 280 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="280" height="140" viewBox="0 0 280 140" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect width="280" height="140" fill="#232D4B"/>
 <g filter="url(#filter0_d_507_5)">
 <path d="M215.025 100H199.073L175.431 36.7188H193.229L210.763 87.6514L226.627 36.7188H237.438L215.025 100Z" fill="#E57200"/>
@@ -33,40 +29,3 @@ import { Steps } from 'nextra/components'
 </filter>
 </defs>
 </svg>
-
-
-> If you fail to plan, you plan to fail
-> - Dr. Susan Caffery
-
-Planning is unreasonably effective[^1]. Though you may not follow your plan exactly, the act of working through and processing the steps is a wildly beneficial exercise. The issue is **I hate the Student Information System (SIS)** degree planner.
-
-- It's slow
-- It's clunky
-- It's hard to use
-- It's hard to read
-- It's hard to share
-
-A plain spreadsheet is so much easier, versatile and faster to use. 
-
-## What is this project?
-
-This project contains two things: 
-- **a collection of degree planning templates**
-- **a Google Sheets Addon** that automatically populates the templates with your course information.
-
-<Steps>
-### Clone the template
-
-Pull all relevant course information. No more errors in translation. Everything else populates.
-
-### Add the API to your site
-
-If starting from scratch is more your style, [add the Addon to your Google Sheet here](). Check out the [Addon Reference](./reference.mdx) for what the addon can do.
-
-### Only touch `Course Number` and `GPA`
-
-Everything else can be automatically populated. Quite literally the fastest course planning experience you'll ever have.
-
-</Steps>
-
-[^1]: Students with a 4-year graduation plan have a 80.9% greater chance of graduating in four years or less according to [Letkiewicz et al.](https://journals.sagepub.com/doi/pdf/10.2190/CS.16.3.c?casa_token=_wxxq_h74jgAAAAA:Bq4QcGecvNhaKAP69iZqwgSglALaW1f680N_s-eHtKAzEUFlYN3oyP4BrIagLJxfuDUkn_JU5WOGGQ)
