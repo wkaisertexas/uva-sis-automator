@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://uvamisc.com
+
+# Sitemaps
+Sitemap: https://uvamisc.com/sitemap.xml
