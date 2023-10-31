@@ -1,5 +1,6 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import Script from 'next/script'
 
 const config: DocsThemeConfig = {
   logo: <span>UVA Degree Templates</span>,
@@ -13,14 +14,14 @@ const config: DocsThemeConfig = {
           content="A course-planning utility for UVA students." />
     <meta property="og:image" content="/thumbnail.svg" />
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-M8BB9MS7XE"></script>
-  <script>
+  <Script>
     {`
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
     gtag('config', 'G-M8BB9MS7XE');`}
-  </script>
+  </Script>
   </>,
   // chat: {
   //   link: 'https://discord.com',
