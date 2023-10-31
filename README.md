@@ -3,8 +3,9 @@
 </p>
 
 ---
-
-# UVA SIS Automator + Degree Plan Templates
+<h1 align="center">
+    UVA SIS Automator + Degree Plan Templates
+</h1>
 
 Automate both the process of building and getting data for you degree plan at the University of Virginia (UVA). Planning is great, but UVA's [student information system](https://in.virginia.edu/sis) planning features are quite terrible.
 
